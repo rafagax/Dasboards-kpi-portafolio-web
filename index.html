@@ -502,11 +502,19 @@
      <footer class="site-footer" style="background-color:#000; color: white; padding: 1.5rem 0;">
   <div class="container" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
     
-    <div class="brand footer-brand" style="flex: 1;">
-      <!-- Aquí puedes poner logo o nombre -->
-      <strong> Contacto: +58-414-473-5431  inversionesdigitales@hotmail.com</strong>
-	
-    </div>
+   <style>
+  @media (max-width: 499px) {
+    .brand.footer-brand {
+      display: none !important;
+    }
+  }
+</style>
+
+<div class="brand footer-brand" style="flex: 1;">
+  <!-- Aquí puedes poner logo o nombre -->
+  <strong> Contacto: +58-414-473-5431  inversionesdigitales@hotmail.com</strong>
+</div>
+
     
     <div class="footer-contact" style="flex: 1; display: flex; justify-content: center; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
       
